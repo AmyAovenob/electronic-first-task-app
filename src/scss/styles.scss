@@ -316,6 +316,9 @@ a {
         transform: translate(0, -50%);
         color: var(--color-light);
         font-size: 0.86rem;
+        &:hover {
+            text-decoration: underline;
+        }
     }
     .close-btn {
         position: absolute;
